@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B1EAE92167AB5B007E6F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1EAE82167AB5B007E6F08 /* AppDelegate.swift */; };
+		74B1EAEB2167AB5B007E6F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1EAEA2167AB5B007E6F08 /* ViewController.swift */; };
+		74B1EAEE2167AB5B007E6F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B1EAEC2167AB5B007E6F08 /* Main.storyboard */; };
+		74B1EAF02167AB5C007E6F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B1EAEF2167AB5C007E6F08 /* Assets.xcassets */; };
+		74B1EAF32167AB5C007E6F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B1EAF12167AB5C007E6F08 /* LaunchScreen.storyboard */; };
+		74B1EAFE2167AB5C007E6F08 /* StoneScissorsAndClothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1EAFD2167AB5C007E6F08 /* StoneScissorsAndClothTests.swift */; };
+		74B1EB092167AB5C007E6F08 /* StoneScissorsAndClothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1EB082167AB5C007E6F08 /* StoneScissorsAndClothUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B1EAFA2167AB5C007E6F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B1EADD2167AB5B007E6F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B1EAE42167AB5B007E6F08;
+			remoteInfo = StoneScissorsAndCloth;
+		};
+		74B1EB052167AB5C007E6F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B1EADD2167AB5B007E6F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B1EAE42167AB5B007E6F08;
+			remoteInfo = StoneScissorsAndCloth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B1EAE52167AB5B007E6F08 /* StoneScissorsAndCloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoneScissorsAndCloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B1EAE82167AB5B007E6F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74B1EAEA2167AB5B007E6F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74B1EAED2167AB5B007E6F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B1EAEF2167AB5C007E6F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B1EAF22167AB5C007E6F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B1EAF42167AB5C007E6F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B1EAF92167AB5C007E6F08 /* StoneScissorsAndClothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoneScissorsAndClothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B1EAFD2167AB5C007E6F08 /* StoneScissorsAndClothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneScissorsAndClothTests.swift; sourceTree = "<group>"; };
+		74B1EAFF2167AB5C007E6F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B1EB042167AB5C007E6F08 /* StoneScissorsAndClothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoneScissorsAndClothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B1EB082167AB5C007E6F08 /* StoneScissorsAndClothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneScissorsAndClothUITests.swift; sourceTree = "<group>"; };
+		74B1EB0A2167AB5C007E6F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B1EAE22167AB5B007E6F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1EAF62167AB5C007E6F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1EB012167AB5C007E6F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B1EADC2167AB5B007E6F08 = {
+			isa = PBXGroup;
+			children = (
+				74B1EAE72167AB5B007E6F08 /* StoneScissorsAndCloth */,
+				74B1EAFC2167AB5C007E6F08 /* StoneScissorsAndClothTests */,
+				74B1EB072167AB5C007E6F08 /* StoneScissorsAndClothUITests */,
+				74B1EAE62167AB5B007E6F08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B1EAE62167AB5B007E6F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B1EAE52167AB5B007E6F08 /* StoneScissorsAndCloth.app */,
+				74B1EAF92167AB5C007E6F08 /* StoneScissorsAndClothTests.xctest */,
+				74B1EB042167AB5C007E6F08 /* StoneScissorsAndClothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B1EAE72167AB5B007E6F08 /* StoneScissorsAndCloth */ = {
+			isa = PBXGroup;
+			children = (
+				74B1EAE82167AB5B007E6F08 /* AppDelegate.swift */,
+				74B1EAEA2167AB5B007E6F08 /* ViewController.swift */,
+				74B1EAEC2167AB5B007E6F08 /* Main.storyboard */,
+				74B1EAEF2167AB5C007E6F08 /* Assets.xcassets */,
+				74B1EAF12167AB5C007E6F08 /* LaunchScreen.storyboard */,
+				74B1EAF42167AB5C007E6F08 /* Info.plist */,
+			);
+			path = StoneScissorsAndCloth;
+			sourceTree = "<group>";
+		};
+		74B1EAFC2167AB5C007E6F08 /* StoneScissorsAndClothTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B1EAFD2167AB5C007E6F08 /* StoneScissorsAndClothTests.swift */,
+				74B1EAFF2167AB5C007E6F08 /* Info.plist */,
+			);
+			path = StoneScissorsAndClothTests;
+			sourceTree = "<group>";
+		};
+		74B1EB072167AB5C007E6F08 /* StoneScissorsAndClothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B1EB082167AB5C007E6F08 /* StoneScissorsAndClothUITests.swift */,
+				74B1EB0A2167AB5C007E6F08 /* Info.plist */,
+			);
+			path = StoneScissorsAndClothUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B1EAE42167AB5B007E6F08 /* StoneScissorsAndCloth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B1EB0D2167AB5C007E6F08 /* Build configuration list for PBXNativeTarget "StoneScissorsAndCloth" */;
+			buildPhases = (
+				74B1EAE12167AB5B007E6F08 /* Sources */,
+				74B1EAE22167AB5B007E6F08 /* Frameworks */,
+				74B1EAE32167AB5B007E6F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoneScissorsAndCloth;
+			productName = StoneScissorsAndCloth;
+			productReference = 74B1EAE52167AB5B007E6F08 /* StoneScissorsAndCloth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B1EAF82167AB5C007E6F08 /* StoneScissorsAndClothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B1EB102167AB5C007E6F08 /* Build configuration list for PBXNativeTarget "StoneScissorsAndClothTests" */;
+			buildPhases = (
+				74B1EAF52167AB5C007E6F08 /* Sources */,
+				74B1EAF62167AB5C007E6F08 /* Frameworks */,
+				74B1EAF72167AB5C007E6F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B1EAFB2167AB5C007E6F08 /* PBXTargetDependency */,
+			);
+			name = StoneScissorsAndClothTests;
+			productName = StoneScissorsAndClothTests;
+			productReference = 74B1EAF92167AB5C007E6F08 /* StoneScissorsAndClothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B1EB032167AB5C007E6F08 /* StoneScissorsAndClothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B1EB132167AB5C007E6F08 /* Build configuration list for PBXNativeTarget "StoneScissorsAndClothUITests" */;
+			buildPhases = (
+				74B1EB002167AB5C007E6F08 /* Sources */,
+				74B1EB012167AB5C007E6F08 /* Frameworks */,
+				74B1EB022167AB5C007E6F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B1EB062167AB5C007E6F08 /* PBXTargetDependency */,
+			);
+			name = StoneScissorsAndClothUITests;
+			productName = StoneScissorsAndClothUITests;
+			productReference = 74B1EB042167AB5C007E6F08 /* StoneScissorsAndClothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B1EADD2167AB5B007E6F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王春杉";
+				TargetAttributes = {
+					74B1EAE42167AB5B007E6F08 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					74B1EAF82167AB5C007E6F08 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 74B1EAE42167AB5B007E6F08;
+					};
+					74B1EB032167AB5C007E6F08 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 74B1EAE42167AB5B007E6F08;
+					};
+				};
+			};
+			buildConfigurationList = 74B1EAE02167AB5B007E6F08 /* Build configuration list for PBXProject "StoneScissorsAndCloth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B1EADC2167AB5B007E6F08;
+			productRefGroup = 74B1EAE62167AB5B007E6F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B1EAE42167AB5B007E6F08 /* StoneScissorsAndCloth */,
+				74B1EAF82167AB5C007E6F08 /* StoneScissorsAndClothTests */,
+				74B1EB032167AB5C007E6F08 /* StoneScissorsAndClothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B1EAE32167AB5B007E6F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1EAF32167AB5C007E6F08 /* LaunchScreen.storyboard in Resources */,
+				74B1EAF02167AB5C007E6F08 /* Assets.xcassets in Resources */,
+				74B1EAEE2167AB5B007E6F08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1EAF72167AB5C007E6F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1EB022167AB5C007E6F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B1EAE12167AB5B007E6F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1EAEB2167AB5B007E6F08 /* ViewController.swift in Sources */,
+				74B1EAE92167AB5B007E6F08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1EAF52167AB5C007E6F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1EAFE2167AB5C007E6F08 /* StoneScissorsAndClothTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1EB002167AB5C007E6F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1EB092167AB5C007E6F08 /* StoneScissorsAndClothUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B1EAFB2167AB5C007E6F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B1EAE42167AB5B007E6F08 /* StoneScissorsAndCloth */;
+			targetProxy = 74B1EAFA2167AB5C007E6F08 /* PBXContainerItemProxy */;
+		};
+		74B1EB062167AB5C007E6F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B1EAE42167AB5B007E6F08 /* StoneScissorsAndCloth */;
+			targetProxy = 74B1EB052167AB5C007E6F08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74B1EAEC2167AB5B007E6F08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B1EAED2167AB5B007E6F08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B1EAF12167AB5C007E6F08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B1EAF22167AB5C007E6F08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B1EB0B2167AB5C007E6F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74B1EB0C2167AB5C007E6F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B1EB0E2167AB5C007E6F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoneScissorsAndCloth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twt.StoneScissorsAndCloth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B1EB0F2167AB5C007E6F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoneScissorsAndCloth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twt.StoneScissorsAndCloth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74B1EB112167AB5C007E6F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoneScissorsAndClothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twt.StoneScissorsAndClothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoneScissorsAndCloth.app/StoneScissorsAndCloth";
+			};
+			name = Debug;
+		};
+		74B1EB122167AB5C007E6F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoneScissorsAndClothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twt.StoneScissorsAndClothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoneScissorsAndCloth.app/StoneScissorsAndCloth";
+			};
+			name = Release;
+		};
+		74B1EB142167AB5C007E6F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoneScissorsAndClothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twt.StoneScissorsAndClothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoneScissorsAndCloth;
+			};
+			name = Debug;
+		};
+		74B1EB152167AB5C007E6F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoneScissorsAndClothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twt.StoneScissorsAndClothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoneScissorsAndCloth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B1EAE02167AB5B007E6F08 /* Build configuration list for PBXProject "StoneScissorsAndCloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1EB0B2167AB5C007E6F08 /* Debug */,
+				74B1EB0C2167AB5C007E6F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B1EB0D2167AB5C007E6F08 /* Build configuration list for PBXNativeTarget "StoneScissorsAndCloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1EB0E2167AB5C007E6F08 /* Debug */,
+				74B1EB0F2167AB5C007E6F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B1EB102167AB5C007E6F08 /* Build configuration list for PBXNativeTarget "StoneScissorsAndClothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1EB112167AB5C007E6F08 /* Debug */,
+				74B1EB122167AB5C007E6F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B1EB132167AB5C007E6F08 /* Build configuration list for PBXNativeTarget "StoneScissorsAndClothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1EB142167AB5C007E6F08 /* Debug */,
+				74B1EB152167AB5C007E6F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B1EADD2167AB5B007E6F08 /* Project object */;
+}
